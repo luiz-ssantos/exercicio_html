@@ -3,7 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Formulário de Cadastro</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Formulário de Cadastro</h1>
+    </header>
+    <form action="">
+      <!-- campo de texto para o nome do usuário -->
+      <label for="nome">Nome</label>
+      <input
+        type="text"
+        name="nome"
+        id="nome"
+        placeholder="Insira seu nome"
+        required
+      />
+      <br />
+      <!-- campo de email para o email do usuário -->
+      <label for="email">E-mail</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Insira o e-mail"
+        required
+      />
+      <br />
+      <!-- campo de senha para a senha do usuário -->
+      <label for="senha">Senha</label>
+      <input
+        type="password"
+        name="senha"
+        id="senha"
+        placeholder="Insira a senha"
+        required
+      />
+      <br />
+      <!--Campo de envio-->
+      <input type="submit" value="Cadastrar" />
+    </form>
+  </body>
 </html>
